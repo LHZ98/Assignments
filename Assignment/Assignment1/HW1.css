@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  margin-left: 0;
+  padding-left: 0;
+}
+#input {
+  text-align: center;
+}
+#btn1 {
+  color: white;
+  background-color: blue;
+}
+#btn2 {
+  color: white;
+  background-color: green;
+}
+#btn {
+  text-align: center;
+}
+#checkbox {
+  float: left;
+}
+#register {
+  background-color: blue;
+  color: white;
+}
+@media screen and (min-width: 200px) {
+  #antra {
+    width: 200px;
+  }
+  #checkbox {
+    margin-right: 200px;
+  }
+  .half {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  .full {
+    width: 420px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+  #btn1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  #btn2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+}
